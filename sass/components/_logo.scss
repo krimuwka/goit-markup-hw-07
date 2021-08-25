@@ -1,0 +1,31 @@
+.logo-link__web {
+  color: var(--accent-color);
+}
+
+.logo-link__studio {
+  color: var(--logo-color);
+}
+
+.logo-link__studio_dark-theme {
+  color: var(--dark-background-text-color);
+}
+
+.logo-link {
+  font-family: var(--logo-font);
+  @include font(700, 26px, 31px);
+  // font-weight: 700;
+  // font-size: 26px;
+  // line-height: 1.19;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.header__logo-link {
+  margin-right: 95px;
+}
+
+.footer__logo-link {
+  margin-bottom: 20px;
+}
